@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="/">
+            <!--de esta manera al hacer click en el logotipo nos lleva a la pagina principal-->
+            <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+        </a>
+
+        <nav>
+            <!-- enlaces locales dentro de nuestra pagina -->
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+        <!-- enlaces externos a otras paginas web -->
+        <!-- en este caso usamos la etiqueta target con la propiedad _blank que nos abre la pagina en otra pestaña diferente,
+    es recomendable que cuando el usuario abre una pagina que no es tuya, lo haga en una pestaña aparte-->
+        <a target="_blank" href="https://netflix.com">Ir a Netflix en otra pestaña aparte con _blank</a>
+        <!-- otra propiedad es _self que es como la que tiene por defecto, se abre en la misma pagina, normalmente no se pone-->
+        <a target="_self" href="https://netflix.com">Ir a Netflix en la misma pestaña con _self</a>
+
+        <h1>Venta de Casas y Apartamentos Exclusivos de Lujo</h1>
+    </header>
+
+    <section>
+        <!--el section va cuando el primer hijo es un encabezado (h1,h2,h3...h6 "heading")-->
+        <h2>Más Sobre Nosotros</h2>
+
+        <div>
+            <!--div es la etiqueta divisoria mas común se usa cuando no hay etiqueta heading-->
+            <img src="img/icono1.svg" alt="Icono Seguridad">
+            <h3>Seguridad</h3>
+            <p> Ipsam unde rerum qui nihil, ab, laboriosam ipsa a,
+                ratione at minus dicta aliquam voluptatum quaerat earum voluptatem aperiam. Laudantium, ab id!</p>
+        </div>
+
+        <div>
+            <img src="img/icono2.svg" alt="Icono Mejor Precio">
+            <h3>El Mejor Precio</h3>
+            <p> Ipsam unde rerum qui nihil, ab, laboriosam ipsa a,
+                ratione at minus dicta aliquam voluptatum quaerat earum voluptatem aperiam. Laudantium, ab id!</p>
+        </div>
+
+        </div>
+        <img src="img/icono3.svg" alt="Icono A Tiempo">
+        <h3>A Tiempo</h3>
+        <p> Ipsam unde rerum qui nihil, ab, laboriosam ipsa a,
+            ratione at minus dicta aliquam voluptatum quaerat earum voluptatem aperiam. Laudantium, ab id!</p>
+        </div>
+    </section>
+
+    <main>
+        <!--contenido principal "venta de casas" solo un main por pagina-->
+        <h2>Casas y Depas en Venta</h2>
+
+        <div>
+            <img src="img/anuncio1.jpg" alt="Anuncio casa en el lago">
+            <h3>Casa de Lujo en el Lago</h3>
+            <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+            <p>$3,000,000</p>
+            <a href="#">Ver Propiedad</a>
+        </div>
+
+        <div>
+            <img src="img/anuncio2.jpg" alt="Anuncio casa terminados de lujo">
+            <h3>Casa terminados de lujo</h3>
+            <p>Casa con diseño moderno, así como tecnología inteligente y amueblada</p>
+            <p>$2,000,000</p>
+            <a href="#">Ver Propiedad</a>
+        </div>
+
+        <div>
+            <img src="img/anuncio3.jpg" alt="Anuncio casa con alberca">
+            <h3>Casa con Alberca</h3>
+            <p>Casa con Alberca y acabados de lujo en la ciudad, exelente oportunidad</p>
+            <p>$3,000,000</p>
+            <a href="#">Ver Propiedad</a>
+
+            <a href="anuncios.html">Ver Todas</a>
+        </div>
+    </main>
+
+    <section>
+        <h2>Encuenta la casa de tus sueños</h2>
+        <p>Rellena el formulario de contacto y un asesor se pondra en contacto contigo a la mayor brevedad</p>
+        <a href="contacto.html">Contactános</a>
+    </section>
+
+    <section>
+        <h3>Nuestro Blog</h3>
+
+        <article>
+            <!--article para articulos, blogs, foros... antes podía llevar un div-->
+            <img src="img/blog1.jpg" alt="Entrada de blog">
+            <h4>Terraza en el techo de tu casa</h4>
+            <p>Escrito el: <em> 20/10/2020 </em> por: <em> Admin </em></p>
+            <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero
+            </p>
+        </article>
+
+        <article>
+            <img src="img/blog2.jpg" alt="Entrada de blog">
+            <h4>Guia para la decoración de tu hogar</h4>
+            <p>Escrito el: <em> 20/10/2020 </em> por: <em> Admin </em></p>
+            <p>Maximíza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu
+                espacio
+            </p>
+        </article>
+
+    </section>
+
+    <section>
+        <h3>Testimoniales</h3>
+        <blockquote>El personal se comporto de una excelente forma, muy buena atencion y la casa que me ofrecieron
+            cumple con todas mis expectativas.
+        </blockquote>
+
+        <footer><!--se pueden poner varios footer, por ejemplo al final de cada elemento o entrada.-->
+            <p>- Yeray tejera</p>
+        </footer>
+    </section>
+
+    <footer>
+        <div>
+            <!-- enlaces locales dentro de nuestra pagina -->
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </footer>
+
+    <p>Todos los Derechos Reservados 2020 &copy;</p>
+</body>
+
+</html>
